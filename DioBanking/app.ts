@@ -2,8 +2,8 @@
 //attributes: name, accountNumber
 //methods: deposit, withdraw
 
+import { CompanyAccount } from './class/CompanyAccount';
 import { PeopleAccount } from './class/PeopleAccount';
-import { CompanyAccount } from './class/companyAccount';
 
 const peopleAccount = new PeopleAccount(1, 'Chris', 11);
 // console.log(peopleAccount);
